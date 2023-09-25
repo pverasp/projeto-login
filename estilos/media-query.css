@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* Paleta de cores
+verde #49a09d
+lilás #5f2c82
+*/
+
+/* Typical Device BreakPoints 
+pequenas telas: até 600px; 
+Celular.......: de 600px a 768px; 
+Tablet........: de 768px a 992px;
+Desktop.......: de 992px a 1200px; e
+Grandes telas.: acima de 1200px;
+*/
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section#login {
+        width: 80vw;
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 30%;
+        height: 100vh;
+
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+        height: 100vh;
+        
+    }
+    div#formulario > h1 {
+        font-size: 1.7em;
+    }
+    div#formulario > p {
+        font-size: 1.5em;
+    }
+}
+/* Desktop  e Telas Grandes */
+@media screen and (min-width: 993px) {
+    section#login {
+        width: 950px;
+    }
+    section#login > div#imagem {
+        float: right;
+        width: 50%;
+        height: 100vh;
+    }
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+        height: 100vh;
+    }
+    main {
+        /* background-color: black; */
+    }
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+    div#formulario > p {
+        font-size: 1.5em;
+    }
+    
+}
