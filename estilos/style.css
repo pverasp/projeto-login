@@ -28,7 +28,7 @@ section#login {
     transform: translate(-50%, -50%);
     background-color: white;
     height: 500px;
-    width: 250px;
+    width: 260px;
     border-radius: 20px;
     overflow: hidden; /* Tudo que estiver fora da borda fica escondido */
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.524);
@@ -52,4 +52,56 @@ div#formulario > h1 {
 }
 div#formulario > p {
     font-size: 1em;
+}
+form > div.campo {
+    /* text-align: center; */
+    background-color: #5f2c82;
+    border-radius: 10px;
+    height: 40px;
+    margin: 5px 0px;
+    padding: 5px;
+    /* width: 240px; */
+    /* margin: auto; */
+}
+form > div.campo > label {
+    display: none;
+}
+form > input#ientrar {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    border-radius: 10px;
+    height: 35px;
+    background-color: #49a09d;
+    cursor: pointer;
+    color: white;
+    margin: 0px auto 0px auto;
+
+}
+form > input#ientrar:hover {
+    background-color: #306866;
+    color: black;
+
+}
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    /* width: 230px; */
+    height: 35px;
+    background-color: #86ece8;
+    color: #183030;
+    border: 1px solid #306866;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-top: 5px;
+    /* margin-top: 5px; */
+    margin: 5px auto 0px auto;
+}
+form > a.botao:hover {
+    background-color: #02f9f1;
+    color: white;
+}
+form > a.botao > span {
+    font-size: 0.9em;
 }
